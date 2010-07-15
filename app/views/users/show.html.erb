@@ -1,0 +1,18 @@
+<p>
+  <b>Title:</b>
+  <%=h @user.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @user.description %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%=h @user.price %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
